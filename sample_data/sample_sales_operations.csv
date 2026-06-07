@@ -1,0 +1,33 @@
+order_id,order_date,region,sales_channel,customer_segment,product_category,product_name,quantity,unit_price,sales_amount,payment_status,delivery_status,sales_rep
+ORD-1001,2024-01-10,Western,Online,Corporate,Office Supplies,Ergonomic Chair,2,150.0,300.0,Paid,Delivered,Alice Smith
+ORD-1002,11/01/2024,Western,Direct,Enterprise,Technology,Standard Laptop,1,800.0,800.0,paid,Delivered,Bob Jones
+ORD-1002,11/01/2024,Western,Direct,Enterprise,Technology,Standard Laptop,1,800.0,800.0,paid,Delivered,Bob Jones
+ORD-1003,"Jan 12, 2024",Southern,Online,,Furniture,Standing Desk,,250.0,,PAID,Pending,Charlie Brown
+ORD-1004,2024-01-15,Northern,Direct,Small Business,Office Supplies,Whiteboard,5,45.0,225.0,Pending,Shipped,
+ORD-1005,16-01-2024,WESTERN,Wholesale,Corporate,Furniture,Conference Table,1,,1200.0,pending,,Alice Smith
+ORD-1006,2024/01/17,Southern,Online,Small Business,Technology,Wireless Mouse,10,25.0,250.0,Paid,Delivered,Charlie Brown
+ORD-1007,2024-01-18,western,Online,Enterprise,Office Supplies,Filing Cabinet,3,120.0,360.0,Paid,Shipped,Bob Jones
+ORD-1008,19/01/2024,Southern,Direct,Corporate,Furniture,Executive Desk,2,400.0,800.0,PENDING,Pending,Charlie Brown
+ORD-1009,"Jan 20, 2024",Northern,Online,Small Business,Technology,Monitor Stand,4,60.0,240.0,Paid,Delivered,Alice Smith
+ORD-1010,2024-01-22,WESTERN,Wholesale,Enterprise,Office Supplies,Paper Shredder,2,80.0,160.0,paid,Shipped,Bob Jones
+ORD-1011,23-01-2024,Northern,Direct,Corporate,Technology,USB-C Hub,8,30.0,240.0,Paid,,Alice Smith
+ORD-1012,2024/01/24,Southern,Online,Small Business,Furniture,Mesh Chair,1,180.0,180.0,Pending,Delivered,Charlie Brown
+ORD-1013,2024-01-25,Western,Online,Corporate,Technology,Keyboard,5,50.0,250.0,Paid,Delivered,Alice Smith
+ORD-1014,26/01/2024,Southern,Direct,Enterprise,Office Supplies,Desk Organizer,12,15.0,,Paid,Shipped,
+ORD-1015,"Jan 27, 2024",Northern,Wholesale,Small Business,Furniture,Bookshelf,3,150.0,450.0,paid,Pending,Bob Jones
+ORD-1016,2024-01-29,Western,Online,Corporate,Technology,Webcam,2,90.0,180.0,Paid,Delivered,Alice Smith
+ORD-1017,30-01-2024,Southern,Online,Enterprise,Furniture,Desk Lamp,6,35.0,210.0,Pending,Shipped,Charlie Brown
+ORD-1018,2024/02/01,Northern,Direct,Corporate,Office Supplies,Notebooks Pack,20,5.0,100.0,Paid,Delivered,
+ORD-1019,2024-02-02,Western,Direct,Small Business,Technology,External SSD,1,120.0,120.0,PAID,Delivered,Bob Jones
+ORD-1020,03/02/2024,Southern,Online,Corporate,Office Supplies,Gel Pens Set,15,8.0,120.0,paid,Shipped,Charlie Brown
+ORD-1021,"Feb 05, 2024",Northern,Wholesale,Enterprise,Furniture,Filing Cabinet,,120.0,360.0,Pending,Pending,Alice Smith
+ORD-1022,2024-02-06,western,Online,Small Business,Technology,Bluetooth Speaker,3,40.0,120.0,Paid,,Bob Jones
+ORD-1023,07-02-2024,Southern,Direct,Corporate,Office Supplies,Dry Erase Markers,10,12.0,120.0,Paid,Delivered,Charlie Brown
+ORD-1024,2024/02/08,Northern,Online,Enterprise,Furniture,Standing Desk,1,250.0,250.0,paid,Shipped,Alice Smith
+ORD-1025,2024-02-10,Western,Direct,Small Business,Technology,Wireless Keyboard,2,60.0,120.0,Paid,Delivered,Bob Jones
+ORD-1026,11/02/2024,Southern,Wholesale,Corporate,Office Supplies,Binder Clips Pack,50,2.0,100.0,Pending,Pending,Charlie Brown
+ORD-1027,"Feb 12, 2024",Northern,Online,Small Business,Furniture,Office Trash Can,4,20.0,80.0,Paid,Delivered,Alice Smith
+ORD-1028,2024-02-14,Western,Online,Enterprise,Technology,HDMI Cable,10,15.0,,paid,Shipped,Bob Jones
+ORD-1029,15-02-2024,Southern,Direct,Corporate,Furniture,Leather Chair,1,350.0,350.0,PENDING,Pending,Charlie Brown
+ORD-1029,15-02-2024,Southern,Direct,Corporate,Furniture,Leather Chair,1,350.0,350.0,PENDING,Pending,Charlie Brown
+ORD-1030,2024/02/16,Northern,Online,Small Business,Office Supplies,Label Maker,2,45.0,90.0,Paid,Delivered,Alice Smith
