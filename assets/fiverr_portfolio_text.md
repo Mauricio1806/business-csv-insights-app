@@ -1,23 +1,23 @@
-# Business CSV Insights & Data Cleaning App
+# Business CSV Insights App
 
 ## Title
-Business CSV Insights & Data Cleaning App
+Business CSV Insights App
 
 ## Description
-Built an internal business web app that allows users to upload CSV files, detect data quality issues, clean messy datasets, generate operational insights and export cleaned CSV/Excel files.
+Built an internal CSV cleaning and reporting app for messy operational files. The app detects data quality issues, applies cleaning rules, generates business metrics and exports clean reporting files.
 
 ## Delivered
 - CSV upload workflow
-- Automated data quality scan
+- Data quality scan
 - Missing value detection
 - Duplicate detection
-- Cleaning rules
-- Business KPI dashboard
-- Sales and operations charts
-- Clean CSV and Excel exports
+- Cleaning controls
+- Before vs after summary
+- Sales and operations dashboard
+- CSV and Excel export
 
 ## Skills
-Python, Streamlit, Pandas, Plotly, Excel, CSV, Data Cleaning, Data Quality, Data Automation, Dashboard Development
+Python, Streamlit, Pandas, Plotly, Excel, CSV, Data Cleaning, Data Quality, Data Automation
 
-## Business Use
-Useful for companies that need to clean recurring spreadsheet exports, automate reporting preparation, validate operational data and generate quick insights from CSV or Excel files.
+## Business Context
+Useful for teams that receive recurring spreadsheet exports from sales, CRM, ERP, marketplace, logistics or operations systems and need faster reporting preparation.

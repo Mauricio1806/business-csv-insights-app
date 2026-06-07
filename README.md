@@ -1,96 +1,86 @@
-# Business CSV Insights & Data Cleaning App
+# Business CSV Insights App
 
 ![Project Cover](assets/project-cover.png)
 
-A business data cleaning and reporting app built to turn messy CSV files into clean datasets, quality checks and operational insights.
+A lightweight internal data app built to clean messy CSV files, check data quality and turn operational spreadsheets into useful business insights.
 
-The app allows users to upload CSV files, detect missing values and duplicate records, apply cleaning rules, visualize business metrics and export cleaned reporting files.
+The app was designed for recurring files exported from sales, operations, CRM, marketplace or logistics systems, where teams need to validate data, fix common issues and prepare clean reporting files quickly.
 
-## What Was Delivered
+## App Snapshot
 
-- CSV upload interface
-- Automated data quality scan
-- Missing value detection
-- Duplicate row detection
-- Data cleaning workflow
-- Before vs after cleaning summary
-- Business KPI dashboard
-- Sales and operations charts
-- Clean CSV export
-- Clean Excel export
-- Sample business dataset
+- Uploads CSV files directly in the browser
+- Loads a sample sales operations dataset when no file is uploaded
+- Detects missing values, duplicate rows and inconsistent text fields
+- Applies cleaning rules without editing spreadsheets manually
+- Generates sales and operational metrics
+- Exports cleaned CSV and Excel files
 
-## Dashboard Preview
+## Preview
 
 ![Dashboard Preview](assets/dashboard-preview.png)
 
-## Project Outcome
+## Data Quality Results
 
-The final app helps business users replace manual spreadsheet cleanup with an interactive workflow for data validation, cleaning and reporting.
+Using the included sample dataset:
 
-It is useful for teams that receive messy CSV or Excel exports from sales systems, CRMs, ERPs, marketplaces, logistics tools or operational spreadsheets.
+| Metric | Before Cleaning | After Cleaning |
+|---|---:|---:|
+| Rows | 32 | 30 |
+| Missing Values | 13 | 0 |
+| Duplicate Rows | 2 | 0 |
+| Total Sales | $8,925 | $8,855 |
 
-## Key Features
+## What the App Handles
 
-- Upload CSV files
-- Load sample business data
-- Detect data quality issues
-- Remove duplicate rows
-- Fill missing values
-- Standardize text fields
-- Generate sales KPIs
-- Visualize operational performance
-- Export cleaned CSV and Excel files
+- Duplicate records
+- Missing numeric values
+- Missing text fields
+- Inconsistent status values
+- Irregular column names
+- Date parsing issues
+- CSV-to-reporting preparation
 
-## Business Value
+## Business Output
 
-This solution helps reduce manual spreadsheet work, improve data quality and accelerate reporting.
+The cleaned dataset can be used for:
 
-It can be adapted for sales reporting, operations tracking, CRM exports, inventory files, marketplace reports, logistics files and recurring Excel/CSV workflows.
+- Sales reporting
+- Operational performance review
+- Payment status monitoring
+- Delivery status tracking
+- Regional sales analysis
+- Product category analysis
+- Monthly trend analysis
 
-## Tech Stack
+## App Views
 
-Python, Streamlit, Pandas, Plotly, OpenPyXL, CSV, Excel
+The interface includes:
 
-## Freelance Use Cases
+- Data quality overview
+- Cleaning controls
+- Before vs after summary
+- Sales KPI dashboard
+- Operational charts
+- Original and cleaned data preview
+- Downloadable CSV and Excel outputs
 
-This type of project can be adapted for:
+## Built With
 
-- Excel and CSV automation
-- Data cleaning workflows
-- Sales reporting dashboards
-- Operations reporting
-- CRM export cleaning
-- Marketplace order analysis
-- Inventory file validation
-- Internal business tools
+Python, Streamlit, Pandas, Plotly, OpenPyXL, CSV and Excel exports.
 
-## Repository Structure
+## Repository Contents
 
 ```
 business-csv-insights-app/
 ├── app.py
-├── requirements.txt
-├── README.md
-├── .gitignore
 ├── assets/
-│   ├── project-cover.png
-│   ├── dashboard-preview.png
-│   └── fiverr_portfolio_text.md
 ├── sample_data/
-│   └── sample_sales_operations.csv
-└── src/
-    ├── data_loader.py
-    ├── data_cleaner.py
-    ├── analytics.py
-    └── utils.py
+├── src/
+├── data/
+├── README.md
+└── requirements.txt
 ```
 
-## How to Run Locally
+## Notes
 
-```powershell
-python -m venv .venv
-.venv\Scripts\activate
-pip install -r requirements.txt
-streamlit run app.py
-```
+The app runs locally as a Streamlit application and uses the included sample dataset for demonstration. Users can upload their own CSV files directly through the interface.
